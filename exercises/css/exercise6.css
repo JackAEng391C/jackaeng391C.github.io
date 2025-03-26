@@ -1,17 +1,14 @@
-/* General Page Styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #00857C; /* Dark Teal */
-    color: #ffffff;
+    background-color: #00857C;
 }
 
-/* Heading Styles */
 h1 {
-    color: #ffc745; /* Yellow */
-    background-color: #0f0d0f; /* Dark Gray */
+    color: #ffc745;
+    background-color: #0f0D0F;
     padding: 1.5rem;
     text-transform: uppercase;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -22,60 +19,32 @@ h2 {
     padding: 1.5rem;
 }
 
-h3 {
-    color: #ffffff;
-    padding: 1rem;
-}
-
-/* Paragraph and Text Styling */
 p {
-    margin: 1.5rem;
+    margin:1.5rem;
     line-height: 1.5rem;
     font-family: "Courier New", Courier, monospace;
 }
 
-/* Image Styling */
 img {
     float: right;
     border: 2px #ffffff solid;
-    margin: 0.65rem;
+    margin: .65rem;
     max-width: 100%;
-    height: auto;
 }
 
-/* Removed the <hr> separator */
-hr {
-    display: none; /* Hides the horizontal rule */
-}
-
-/* Link Styling */
 a:link {
     color: lightcoral;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 a:visited {
-    color: #ffc745;
+    color: #ffc745 ;
 }
 
 a:hover {
-    color: aqua;
-    text-decoration: underline;
-}
+color:aqua;
+text-decoration: underline; }
 
-a:active {
-    color: burlywood;
-}
-
-/* Padding for Main Content */
-main {
-    padding: 1.5rem;
-}
-
-/* Footer Styling - Removed extra margin */
-footer {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 0; /* Removes space between the main content and footer */
-    padding: 1rem 0; /* Keeps minimal padding */
-}
+a:active{
+    color:burlywood;
+}   
