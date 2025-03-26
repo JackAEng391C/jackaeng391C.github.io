@@ -1,4 +1,16 @@
 
+
+@media only screen and (orientation: portrait){
+    li {
+        display: inline;
+        font-family: 'Courier New', Courier, monospace;
+        border: 2px;
+        color: black;
+        padding: 2px;
+        border: 1px white solid;
+    }
+}
+
 @media only screen and (orientation: landscape){
     li {
         display: inline;
@@ -9,15 +21,5 @@
         border: 1px black solid;
     }
 
-}
-@media only screen and (orientation: portrait){
-    li {
-        display: inline;
-        font-family: 'Courier New', Courier, monospace;
-        border: 2px;
-        color: black;
-        padding: 2px;
-        border: 1px white solid;
-    }
 }
 
