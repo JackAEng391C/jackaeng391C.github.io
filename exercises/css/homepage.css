@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-body {
+/* GENERAL STYLING (applies to all pages) */
+
+body {   
     margin: 0;
     font-family: 'Inter', 'Helvetica Neue', sans-serif;
     color: white;
-    background-image: url('https://raw.githubusercontent.com/JackAEng391C/jackaeng391C.github.io/refs/heads/main/computer.jpg');
+    background-image: url('https://raw.githubusercontent.com/JackAEng391C/jackaeng391C.github.io/refs/heads/main/images/computer.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,6 +39,8 @@ body::before {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
+/* NAVBAR (all pages) */
+
 .navbar {
     background-color: black;
     display: flex;
@@ -61,6 +65,8 @@ body::before {
     text-decoration: underline;
     color: #a8c0ff;
 }
+
+/* HOMEPAGE STYLING */
 
 .main-container {
     height: 100vh;
@@ -92,12 +98,13 @@ body::before {
     color: #ffffff;
 }
 
-
 .hero-box p {
     margin-top: 10px;
     font-size: 1.3em;
     color: #ddd;
 }
+
+/* ABOUT ME PAGE STYLING */
 
 .about-container {
     padding: 140px 40px 60px;
@@ -106,26 +113,6 @@ body::before {
     align-items: center;
     gap: 40px;
     min-height: 100vh;
-}
-
-.info-box {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 80%;
-    max-width: 800px;
-    padding: 30px;
-    border-radius: 12px;
-    color: white;
-    text-align: left;
-}
-
-.info-box h2 {
-    margin-top: 0;
-    font-size: 1.8em;
-}
-
-.info-box p {
-    font-size: 1.1em;
-    color: #ccc;
 }
 
 .about-flow {
@@ -157,6 +144,28 @@ body::before {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     flex-shrink: 0;
 }
+
+.info-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    text-align: left;
+}
+
+.info-box h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.info-box p {
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+/* PORTFOLIO PAGE STYLING */
 
 .portfolio-container {
     padding: 140px 40px 60px;
@@ -214,6 +223,8 @@ body::before {
     color: #d0dcff;
 }
 
+/* RESUME PAGE STYLING */
+
 .resume-container {
     padding: 140px 60px 80px;
     max-width: 900px;
@@ -267,6 +278,57 @@ body::before {
     color: #d0dcff;
 }
 
+/* EXERCISES PAGE STYLING */
+
+.exercises-container {
+    padding: 140px 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.exercises-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 800px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.exercises-box h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.exercises-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.exercises-box li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+.exercises-box li a {
+    color: #a8c0ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.exercises-box li a:hover {
+    color: #d0dcff;
+    text-decoration: underline;
+}
+
+
+/* FOOTER  */
+
 .footer-note {
     text-align: center;
     font-size: 0.9em;
@@ -274,6 +336,7 @@ body::before {
     color: #bbb;
 }
 
+/* RESPONSIVE STYLING */
 
 @media screen and (max-width: 768px) {
     .hero-box {
