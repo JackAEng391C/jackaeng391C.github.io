@@ -1,0 +1,9 @@
+
+li {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px;
+    color: black;
+    padding: 2px;
+    border: 1px black solid;
+}
