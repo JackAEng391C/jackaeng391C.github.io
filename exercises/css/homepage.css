@@ -368,3 +368,19 @@ body::before {
         margin-top: 20px;
     }
 }
+  /* PHOTO CREDIT */
+.photo-credit {
+    position: fixed;
+    top: 130px;
+    left: 20px;
+    font-size: 0.7em;
+    color: #ccc;
+    z-index: 3;
+}
+
+.about-photo-credit {
+    font-size: 0.7em;
+    color: #ccc;
+    text-align: center;
+    margin-top: 5px;
+}
